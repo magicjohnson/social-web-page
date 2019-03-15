@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="volnamista.xsl" ?>
+<!-- Integrovaný portál MPSV, http://portal.mpsv.cz                        -->
+<!-- OKsystem s.r.o., Na Pankráci 125, 140 21 Praha 4                      -->
+<!-- +420 244 021 111, webadmin.portal@oksystem.cz, http://www.oksystem.cz -->
+<VOLNAMISTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://portal.mpsv.cz/xml/exportvm" xsi:schemaLocation="http://portal.mpsv.cz/xml/exportvm http://portal.mpsv.cz/xml/exportvm/volnamista-2-5-7.xsd" aktualizace="2019-02-19T01:55:41" verze="2.5.7" detailvm="http://portal.mpsv.cz/vm/" okres="Brno-venkov" okresKod="3703">
+</VOLNAMISTA>

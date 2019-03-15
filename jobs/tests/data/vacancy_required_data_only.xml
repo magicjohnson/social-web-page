@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="volnamista.xsl" ?>
+<!-- Integrovaný portál MPSV, http://portal.mpsv.cz                        -->
+<!-- OKsystem s.r.o., Na Pankráci 125, 140 21 Praha 4                      -->
+<!-- +420 244 021 111, webadmin.portal@oksystem.cz, http://www.oksystem.cz -->
+<VOLNAMISTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://portal.mpsv.cz/xml/exportvm" xsi:schemaLocation="http://portal.mpsv.cz/xml/exportvm http://portal.mpsv.cz/xml/exportvm/volnamista-2-5-7.xsd" aktualizace="2019-02-19T01:55:41" verze="2.5.7" detailvm="http://portal.mpsv.cz/vm/" okres="Brno-venkov" okresKod="3703">
+	<VOLNEMISTO uid="14918890710" celkemVm="5" zmena="2018-09-15T01:31:49" jakKontaktovat="1" autor="1">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci"/>
+		<SMENNOST kod="2" nazev="Dvousměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="40"/>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<PRAC_POMER od="2018-12-15"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+	</VOLNEMISTO>
+</VOLNAMISTA>

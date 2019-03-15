@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="volnamista.xsl" ?>
+<!-- Integrovaný portál MPSV, http://portal.mpsv.cz                        -->
+<!-- OKsystem s.r.o., Na Pankráci 125, 140 21 Praha 4                      -->
+<!-- +420 244 021 111, webadmin.portal@oksystem.cz, http://www.oksystem.cz -->
+<VOLNAMISTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://portal.mpsv.cz/xml/exportvm" xsi:schemaLocation="http://portal.mpsv.cz/xml/exportvm http://portal.mpsv.cz/xml/exportvm/volnamista-2-5-7.xsd" aktualizace="2019-02-19T01:55:41" verze="2.5.7" detailvm="http://portal.mpsv.cz/vm/" okres="Brno-venkov" okresKod="3703">
+	<VOLNEMISTO uid="13729580791" celkemVm="1" zmena="2017-12-21T01:48:33" jakKontaktovat="1" autor="1">
+		<PROFESE kod="3432" nazev="Aranžéři a příbuzní pracovníci" doplnek="Dekoratéři obchodního domu pro Česko"/>
+		<FIRMA nazev="Sconto Nábytek, s.r.o." ic="25723944"/>
+		<SMENNOST kod="9" nazev="Pružná pracovní doba"/>
+		<MIN_VZDELANI kod="K" nazev="ÚSV"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N"/>
+		<KONOS prijmeni="Bc. Zdeněk Jásek" email="kariera@sconto.cz" adresa="Jeremiášova 947/16, Stodůlky, 155 00  Praha 515">Bc. Zdeněk Jásek</KONOS>
+		<PRACOVISTE neurcitaAdresa="A" seznamOkresuKod="3100,3201,3202,3203,3204,3205,3206,3207,3208,3209,3210,3211,3212,3301,3302,3303,3304,3305,3306,3307,3308,3401,3402,3403,3404,3405,3406,3407,3408,3409,3410,3501,3502,3503,3504,3505,3506,3507,3508,3509,3510,3601,3602,3603,3604,3605,3606,3607,3608,3609,3610,3611,3701,3702,3703,3704,3705,3706,3707,3708,3709,3710,3711,3712,3713,3714,3801,3802,3803,3804,3805,3806,3807,3808,3809,3810,3811" nazev="Sconto Nábytek, s.r.o. celá ČR">Sconto Nábytek, s.r.o. celá ČR, Benešov, Beroun, Blansko, Brno-město, Brno-venkov, Bruntál, Břeclav, Česká Lípa, České Budějovice, Český Krumlov, Děčín, Domažlice, Frýdek-Místek, Havlíčkův Brod, Hlavní město Praha, Hodonín, Hradec Králové, Cheb, Chomutov, Chrudim, Jablonec nad Niso...</PRACOVISTE>
+		<MZDA min="24000" max="30000" typMzdy="M"/>
+		<PRAC_POMER od="2017-12-20"/>
+		<VHODNE_PRO absolventySs="A" absolventyVs="N" ozp="N" bezbar="N" cizince="N" azylanty="N"/>
+		<POZNAMKA>Místo výkonu práce: celá ČR
+Kontakt: Bc. Zdeněk Jásek, e-mail: kariera@sconto.cz
+
+SCONTO Nábytek je součástí německého koncernu Hoffner, který patří k největším prodejcům nábytku v Evropě. V České republice a na Slovensku již více než 20 let neustále rozšiřujeme síť obchodních domů s rozsáhlým sortimentem nábytku a bytových doplňků a úspěšně pomáháme tisícům našich zákazníků naplňovat jejich sny o krásném bydlení.
+
+DEKORATÉRKA/DEKORATÉR OBCHODNÍHO DOMU PRO ČESKO
+
+Náplň práce:
+
+- Pomoc při péči o vizuální vzhled obchodních domů
+- Práce na ploše obchodního domu při vizuálních změnách obchodního domu
+
+Nabízíme:
+
+- Perspektivní a stabilní zaměstnání v prosperující nadnárodní společnosti
+- Zvyšování kvalifikace formou odborných školení
+- Atraktivní zaměstnanecké slevy na nákup zboží z naší nabídky
+- Věcné dary a finanční příspěvky při životních jubileích a pracovních výročích
+- Progresivní nárůst dovolené až do délky 5 týdnů
+- Stravenky ve výši 70,--Kč
+
+Požadujeme:
+
+- ochotu cestovat po obchodních domech /lokalita ČESKO/
+- aktivní řidičský průkaz skupiny B - aktivní řidič/podmínka/
+- zaškolení v Čechách na obchodním domě Stodůlky
+- orientace na dosahované výsledky
+- kreativita
+- zkušenost s prací na plotru
+
+Výhody:
+
+- perspektivní zaměstnání v prosperující nadnárodní společnosti
+- možnost dalšího profesního vzdělávání
+- zaměstnanecké výhody
+
+
+Staňte se i Vy členem našeho týmu!
+
+Stravenky a další příspěvky, dovolená navíc, odměnsy a dárky při životních výročích, slevy na nákupy zboží</POZNAMKA>
+		<URAD_PRACE kod="149005" nazev="ÚP ČR - kontaktní pracoviště Praha 5"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="6" nazev="Kultura a sport"/>
+		<VYHODA kod="0" nazev="Jiné výhody" popis="další příspěvky, odměnsy a dárky při životních výročích, slevy na nákup zboží"/>
+		<VYHODA kod="8" nazev="Podnikové stravování" popis="Stravenky"/>
+		<VYHODA kod="9" nazev="Dovolená navíc" popis="dovolená navíc"/>
+		<DOVEDNOST kod="91" nazev="Řidičský průkaz - řízení osobních automobilů - skupina B"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15642840704" celkemVm="1" zmena="2019-01-25T04:54:29" jakKontaktovat="1" autor="1" vyraditDne="2019-04-01">
+		<PROFESE kod="5312" nazev="Asistenti pedagogů" doplnek="Asistent pedagoga"/>
+		<FIRMA nazev="Střední škola a Základní škola Tišnov, příspěvková organizace" ic="00053198"/>
+		<SMENNOST kod="1" nazev="Jednosměnný provoz"/>
+		<MIN_VZDELANI kod="H" nazev="Střední odborné (vyučen)"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="N" ppvztahPpZkrac="A" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="20"/>
+		<KONOS jmeno="Milan" prijmeni="Fiala" telefon="+420 549 410 076" email="fiala@skolatisnov.cz">Milan Fiala</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Tišnov" cobce="Tišnov" ulice="nám. Míru" cp="22" psc="666 01" posta="Tišnov 1" nazev="Střední škola a Základní škola Tišnov, příspěvková organizace">nám. Míru 22, 666 01  Tišnov 1</PRACOVISTE>
+		<MZDA min="7000" typMzdy="M"/>
+		<PRAC_POMER od="2019-04-01"/>
+		<VHODNE_PRO absolventySs="A" absolventyVs="N" ozp="N" bezbar="N" cizince="N" azylanty="N"/>
+		<POZNAMKA>První kontakt telefonicky nebo e-mailem.
+Pracovní doba od 7:30 hod. do 11:30 hod.
+
+Jedná se o poloviční úvazek asistenta pedagoga ve třídě ZŠ pro žáky se zdravotním postižením - děti s LMP a autismem. Požadované vzdělání dle zákona o pedagogických pracovnících.
+
+Zájemci zasílejte žádost a životopis na mail fiala@skolatisnov.cz </POZNAMKA>
+		<URAD_PRACE kod="105004" nazev="ÚP ČR - kontaktní pracoviště Tišnov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="12" nazev="Výchova a vzdělávání"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15655850732" celkemVm="1" zmena="2019-01-29T04:11:57" jakKontaktovat="1" autor="1" vyraditDne="2019-03-27">
+		<PROFESE kod="5312" nazev="Asistenti pedagogů" doplnek="Školní asistent"/>
+		<FIRMA nazev="MATEŘSKÁ ŠKOLA NĚMČIČKY, okres Brno - venkov, příspěvková organizace" ic="75024501"/>
+		<SMENNOST kod="1" nazev="Jednosměnný provoz"/>
+		<MIN_VZDELANI kod="L" nazev="ÚSO (vyučení s maturitou)"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="N" ppvztahPpZkrac="A" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="20"/>
+		<KONOS titul="Bc." jmeno="Vendula" prijmeni="Tintěrová" telefon="+420 774 392 015" email="ms.nemcicky@volny.cz">Bc. Vendula Tintěrová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Němčičky" cobce="Němčičky" cp="59" psc="664 66" posta="Němčičky u Židlochovic" nazev="MATEŘSKÁ ŠKOLA NĚMČIČKY, okres Brno - venkov, příspěvková organizace">Němčičky 59, 664 66  Němčičky u Židlochovic</PRACOVISTE>
+		<MZDA min="9000" max="13000" typMzdy="M"/>
+		<PRAC_POMER od="2019-02-01" do="2019-08-31"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="N" azylanty="N"/>
+		<POZNAMKA>První kontakt: osobně, telefonicky nebo e-mailem
+Na pracovní místo požadujeme kvalifikaci v pedagogickém oboru nebo kurz asistenta pedagoga.
+Místo  výkonu práce: Němčičky 59, 664 66</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="12" nazev="Výchova a vzdělávání"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15538100783" celkemVm="1" zmena="2019-01-08T02:26:54" jakKontaktovat="1" autor="1" vyraditDne="2019-03-06">
+		<PROFESE kod="51320" nazev="Barmani" doplnek="Brman, barmanka"/>
+		<FIRMA nazev="Gremona, s.r.o." ic="27710769"/>
+		<SMENNOST kod="A" nazev="Noční provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="A" ppvztahDpc="N" tydneHodinMin="37.5"/>
+		<KONOS jmeno="Tomáš" prijmeni="Dadák" telefon="+420 603 807 119" email="dadak@kajot.cz">Tomáš Dadák</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Modřice" cobce="Modřice" ulice="U dálnice" cp="777" psc="664 42" posta="Modřice" nazev="Gremona, s.r.o. - Modřice">Gremona, s.r.o. - Modřice, U dálnice 777, 664 42  Modřice</PRACOVISTE>
+		<MZDA min="16280" typMzdy="M"/>
+		<PRAC_POMER od="2019-02-01" do="2019-07-31"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="N" azylanty="N"/>
+		<POZNAMKA>První kontakt: telefonicky nebo e-mailem
+
+Náplň práce: obsluha hostů na provozovně, manipulace s finanční hotovostí, provádění inventur. Práce v režimu krátký/dlouhý týden (denní/noční směny)
+Požadujeme: spolehlivost, zodpovědnost, vstřícný přístup k zákazníkům, praxi s daném oboru.
+
+Nabízíme: smlouvu na HPP, netradiční prostředí, kvalitní pracovní zázemí a motivující finanční ohodnocení
+
+Místo výkonu práce: U dálnice 777 OC Olympia, 664 42 Brno</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="8" nazev="Obchod a cestovní ruch"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="14744380726" celkemVm="20" zmena="2019-01-30T10:03:09" jakKontaktovat="1" autor="1">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="betonář"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="3" nazev="Třísměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="16000" typMzdy="M"/>
+		<PRAC_POMER od="2018-12-15"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem, nebo osobně v místě výkonu práce (7:00 - 10:00 hod. v pracovní dny)
+Výroba betonových výrobků. Ukládání a příprava armatur do forem, kompletace armatur, betonáž. Nutná znalost čtení technické dokumentace. Znalost vazačských a jeřábnických prací.
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+Souhlas zaměstnavatele se zaměstnaneckou kartou.</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+		<VYHODA kod="0" nazev="Jiné výhody"/>
+		<VYHODA kod="9" nazev="Dovolená navíc"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="14744430778" celkemVm="20" zmena="2018-08-09T00:50:25" jakKontaktovat="1" autor="1">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="Betonář - strojník výroby stavebních hmot"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="3" nazev="Třísměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="16000" typMzdy="M"/>
+		<PRAC_POMER od="2018-12-15"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem, nebo osobně v místě výkonu práce (7:00 - 10:00 hod. v pracovní dny)
+Výroba betonových výrobků, specializovaná práce na výrobní lince spiroll. Znalost předpínání oceli. Nutná technická orientace, technické myšlení.
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+Souhlas zaměstnavatele se zaměstnaneckou kartou.</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+		<VYHODA kod="0" nazev="Jiné výhody"/>
+		<VYHODA kod="9" nazev="Dovolená navíc"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15555740718" celkemVm="5" zmena="2019-01-10T02:13:19" jakKontaktovat="1" autor="1" vyraditDne="2019-06-12">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="Betonář - strojník výroby stavebních hmot"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="3" nazev="Třísměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="37.5"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="17700" typMzdy="M"/>
+		<PRAC_POMER od="2019-03-15" do="2019-06-12"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem
+Krátkodobé zaměstnání.
+
+Výroba betonových výrobků, specializovaná práce na výrobní lince spiroll.
+Znalost předpínání oceli. Nutná technická orientace, technické myšlení.
+
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+		<VYHODA kod="0" nazev="Jiné výhody" popis="stravenky, výh.mob.tarify, příspěvek na PP"/>
+		<VYHODA kod="9" nazev="Dovolená navíc"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15656010782" celkemVm="10" zmena="2019-01-29T04:11:57" jakKontaktovat="1" autor="1" vyraditDne="2019-06-27">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="Betonář - strojník výroby stavebních hmot"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="3" nazev="Třísměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="37.5"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="17700" typMzdy="M"/>
+		<PRAC_POMER od="2019-03-30" do="2019-06-27"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem
+Krátkodobé zaměstnání.
+
+Výroba betonových výrobků, specializovaná práce na výrobní lince spiroll.
+Znalost předpínání oceli. Nutná technická orientace, technické myšlení.
+
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+		<VYHODA kod="0" nazev="Jiné výhody"/>
+		<VYHODA kod="9" nazev="Dovolená navíc"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="15655810768" celkemVm="10" zmena="2019-01-29T04:11:57" jakKontaktovat="1" autor="1" vyraditDne="2019-06-27">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="Betonář - strojník výroby stavebních hmot"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="3" nazev="Třísměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="37.5"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="17700" typMzdy="M"/>
+		<PRAC_POMER od="2019-03-30" do="2019-06-27"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem
+Krátkodobé zaměstnání.
+
+Výroba betonových výrobků, specializovaná práce na výrobní lince spiroll.
+Znalost předpínání oceli. Nutná technická orientace, technické myšlení.
+
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+	</VOLNEMISTO>
+	<VOLNEMISTO uid="14918890710" celkemVm="5" zmena="2018-09-15T01:31:49" jakKontaktovat="1" autor="1">
+		<PROFESE kod="71140" nazev="Betonáři, železobetonáři a příbuzní pracovníci" doplnek="Betonář - železář, svářeč kovů"/>
+		<FIRMA nazev="Prefa Brno a.s." ic="46901078"/>
+		<SMENNOST kod="2" nazev="Dvousměnný provoz"/>
+		<MIN_VZDELANI kod="C" nazev="Základní + praktická škola"/>
+		<PRACPRAVNI_VZTAH ppvztahPpPlny="A" ppvztahPpZkrac="N" ppvztahSp="N" ppvztahDpp="N" ppvztahDpc="N" tydneHodinMin="40"/>
+		<KONOS jmeno="Iveta" prijmeni="Lidmilová" email="lidmilova@prefa.cz">Iveta Lidmilová</KONOS>
+		<PRACOVISTE neurcitaAdresa="N" okresKod="3703" okres="Brno-venkov" obec="Kuřim" cobce="Kuřim" ulice="Blanenská" cp="1190" co="121" psc="664 34" posta="Kuřim" nazev="Prefa Brno a.s. - 01">Prefa Brno a.s. - 01, Blanenská 1190/121, 664 34  Kuřim</PRACOVISTE>
+		<MZDA min="16000" typMzdy="M"/>
+		<PRAC_POMER od="2018-12-15"/>
+		<VHODNE_PRO absolventySs="N" absolventyVs="N" ozp="N" bezbar="N" cizince="A" azylanty="N"/>
+		<POZNAMKA>První kontakt e-mailem
+
+Svařování armatur do betonových výrobků elektrodou a CO2
+
+Zaměstnanecké výhody: Týden dovolené navíc, stravenky, zvýhodněné mob. tarify pro zaměstnance a jeho rodinné příslušníky, příspěvek na penzijní připojištění
+
+Místo výkonu práce: Prefa Brno a.s., závod Kuřim, Blanenská 1190, 664 34 Kuřim
+
+Souhlas zaměstnavatele se zaměstnaneckou kartou.</POZNAMKA>
+		<URAD_PRACE kod="105000" nazev="ÚP ČR - kontaktní pracoviště Brno-venkov"/>
+		<MODRE_KARTY pocetVmProMk="0" celkemVmProMk="0" vmRezervProMk="0" vmRezervProPodanMk="0" vmRezervProVyhovMk="0" vmRezervProVydanMk="0"/>
+		<ZAMEST_KARTY pocetVmProZm="0" celkemVmProZm="0" vmRezervProZm="0" vmRezervProPodanZm="0" vmRezervProVyhovZm="0" vmRezervProVydanZm="0" jenDalsiZamZm="N"/>
+		<AGENTURA_PRACE_PRIDELENI>N</AGENTURA_PRACE_PRIDELENI>
+		<OBOR kod="10" nazev="Stavebnictví"/>
+		<VYHODA kod="0" nazev="Jiné výhody"/>
+		<VYHODA kod="9" nazev="Dovolená navíc"/>
+	</VOLNEMISTO>
+</VOLNAMISTA>
