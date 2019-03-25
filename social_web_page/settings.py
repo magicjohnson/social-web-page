@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_extensions',
+    'cities_light',
+
     'jobs',
+    'jobseekers',
 ]
 
 MIDDLEWARE = [
@@ -93,7 +96,6 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'simple'
         },
-
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
@@ -106,6 +108,11 @@ LOGGING = {
             'handlers': ['file', 'console'],
             'level': 'DEBUG',
             'propagate': True,
+        },
+        'cities_light': {
+            'handlers': ['console'],
+            'propagate': True,
+            'level': 'DEBUG',
         },
     },
 }
@@ -157,3 +164,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CITIES_LIGHT_TRANSLATION_LANGUAGES = ['cz', 'en']
+CITIES_LIGHT_INCLUDE_CITIES_FROM_COUNTRIES = ['CZ']
+CITIES_LIGHT_INCLUDE_CITY_TYPES = ['PPL', 'PPLA', 'PPLA2', 'PPLA3', 'PPLA4', 'PPLC', 'PPLF', 'PPLG', 'PPLL', 'PPLR', 'PPLS', ]
+
