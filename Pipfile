@@ -6,8 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-ipython = "*"
+Django = "*"
 django-cities-light = "*"
+django-extensions = "*"
+psycopg2-binary = "*"
+ipython = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"

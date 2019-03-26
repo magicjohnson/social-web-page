@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:10.1-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+  web:
+    command: "./s/wait-for-it.sh db:5432 -- ./manage.py runserver 0.0.0.0:8000"
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
