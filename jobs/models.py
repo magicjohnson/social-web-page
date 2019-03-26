@@ -70,7 +70,7 @@ class Vacancy(TimeStampedModel):
     WAGE_TYPE_HOURLY = 'Hourly'
     SALARY_TYPES = (('M', WAGE_TYPE_MONTHLY), ('H', WAGE_TYPE_HOURLY))
 
-    mpsv_id = IntegerField(unique=True)
+    mpsv_id = models.BigIntegerField(unique=True)
     profession = ForeignKey(to=Profession, on_delete=CASCADE)  # PROFESE
     company = ForeignKey(to=Company, on_delete=CASCADE, null=True, related_name=RELATED_NAME)  # FIRMA
     address = CharField(max_length=1024)  # PRACOVISTE
