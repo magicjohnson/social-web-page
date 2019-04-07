@@ -43,8 +43,8 @@ class VacancyAdmin(NumericFilterModelAdmin):
     )
 
     def get_region_codes(self, obj):
-        codes = [r.code for r in obj.region_codes.all()[:5]]
-        truncate_char = '...' if len(codes) > 5 else ''
+        codes = [r.code for r in obj.region_codes.all()[:10]]
+        truncate_char = ' ...' if len(codes) == 10 else ''
         return '\n'.join(codes) + truncate_char
 
     get_region_codes.short_description = 'Region codes'
