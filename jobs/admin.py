@@ -26,6 +26,7 @@ class VacancyAdmin(NumericFilterModelAdmin):
     )
 
     search_fields = (
+        'mpsv_id',
         'region_codes__code',
         'profession__code',
     )
@@ -39,7 +40,8 @@ class VacancyAdmin(NumericFilterModelAdmin):
 
     def get_region_codes(self, obj):
         codes = [r.code for r in obj.region_codes.all()[:5]]
-        return '\n'.join(codes) + '...' if len(codes) > 5 else ''
+        truncate_char = '...' if len(codes) > 5 else ''
+        return '\n'.join(codes) + truncate_char
 
     get_region_codes.short_description = 'Region codes'
 
