@@ -11,7 +11,7 @@ from django.core.management import BaseCommand
 from django.db.transaction import atomic
 from django.utils.timezone import now
 
-from jobs.models import Profession, Vacancy, Company
+from jobs.models import Profession, Vacancy, Company, Region, Contact
 from jobs.mpsv import MPSVParser
 from social_web_page import settings
 
@@ -80,34 +80,58 @@ class Command(BaseCommand):
     @atomic
     def create_or_update_vacancy(self, vacancy_data):
         uid = vacancy_data['uid']
-        defaults = {
+        data = {
+            'mpsv_updated_at': vacancy_data['updated_at'],
+            'total_vacancies': vacancy_data['total_vacancies'],
             'profession': self.get_or_create_profession(vacancy_data),
             'company': self.get_or_create_company(vacancy_data),
             'employment_period_from': vacancy_data['employment_period_from'],
-            'is_full_time': vacancy_data['is_full_time'],
             'employment_period_to': vacancy_data.get('employment_period_to'),
-
+            'is_full_time': vacancy_data['is_full_time'],
+            'is_for_foreign_workers': vacancy_data['is_for_foreign_workers'],
+            'salary_min': vacancy_data.get('salary_min'),
+            'salary_max': vacancy_data.get('salary_max'),
+            'comments': vacancy_data.get('comments', ''),
+            'town': vacancy_data.get('town', ''),
+            'report_to': self.create_contact(vacancy_data),
         }
-        vacancy, created = Vacancy.objects.get_or_create(mpsv_id=uid, defaults=defaults)
+        vacancy, created = Vacancy.objects.get_or_create(mpsv_id=uid, defaults=data)
+
+        self.add_regions(vacancy, vacancy_data['region_codes'])
         if created:
             logger.debug(f"Created new vacancy: {vacancy}")
         else:
-            # TODO UPDATE Vacancy here
-            pass
+            if vacancy_data['updated_at'] > vacancy.mpsv_updated_at:
+                for f, v in data.items():
+                    setattr(vacancy, f, v)
+                vacancy.save()
+                logger.debug(f"Updated vacancy: {vacancy}")
+            else:
+                logger.debug(f"Skip not-changed vacancy {vacancy}")
         return vacancy
+
+    def add_regions(self, vacancy, codes):
+        for code in codes:
+            region, created = Region.objects.get_or_create(code=code)
+            vacancy.region_codes.add(region)
 
     def get_or_create_company(self, vacancy_data):
         if 'company' not in vacancy_data:
             return
         company_data = vacancy_data['company']
-        company, created = Company.objects.get_or_create(ic=company_data['ic'], defaults={'name': company_data['name']})
+        company, created = Company.objects.get_or_create(name=company_data['name'], ic=company_data.get('ic'))
         if created:
-            logger.debug('created new company: %s' % company)
+            logger.debug('Created new company: %s' % company)
         return company
 
     def get_or_create_profession(self, vacancy_data):
         profession = vacancy_data['profession']
         profession, created = Profession.objects.get_or_create(code=profession['code'], defaults={'name': profession['name'], 'addition': profession.get('addition', '')})
         if created:
-            logger.debug('created new profession: %s' % profession)
+            logger.debug('reated new profession: %s' % profession)
         return profession
+
+    def create_contact(self, vacancy_data):
+        report_to = vacancy_data.get('report_to')
+        if report_to:
+            return Contact.objects.create(**report_to)
