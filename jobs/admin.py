@@ -33,6 +33,8 @@ class VacancyAdmin(NumericFilterModelAdmin):
         'mpsv_id',
         'region_codes__code',
         'profession__code',
+        'profession__name',
+        'comments',
     )
 
     list_filter = (
