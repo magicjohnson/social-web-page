@@ -4,6 +4,8 @@ import os
 
 from datetime import date, datetime
 
+from pytz import UTC
+
 from jobs.mpsv import MPSVParser
 
 
@@ -37,7 +39,7 @@ class MPSVParserTest(TestCase):
             'is_for_foreign_workers': True,
             'employment_period_from': date(2018, 12, 15),
             'is_full_time': True,
-            'updated_at': datetime(2019, 2, 19, 1, 55, 41)
+            'updated_at': datetime(2019, 2, 19, 1, 55, 41, tzinfo=UTC)
         }
         self.assertEqual(vacancy, expected)
 
@@ -54,6 +56,10 @@ class MPSVParserTest(TestCase):
                 '3608', '3609', '3610', '3611', '3701', '3702', '3703', '3704', '3705', '3706', '3707', '3708', '3709', '3710', '3711', '3712',
                 '3713', '3714', '3801', '3802', '3803', '3804', '3805', '3806', '3807', '3808', '3809', '3810', '3811'
             ],
+            'company': {'ic': '25723944', 'name': 'Sconto Nábytek, s.r.o.'},
+            'report_to': {'email': 'kariera@sconto.cz', 'last_name': 'Bc. Zdeněk Jásek'},
+            'salary_max': '30000',
+            'salary_min': '24000',
             'address': 'Sconto Nábytek, s.r.o. celá ČR, Benešov, Beroun, Blansko,\n'
             '      Brno-město, Brno-venkov, Bruntál, Břeclav, Česká Lípa, '
             'České Budějovice, Český Krumlov, Děčín, Domažlice,\n'
@@ -73,6 +79,6 @@ class MPSVParserTest(TestCase):
             'employment_period_from': date(2017, 12, 20),
             'is_for_foreign_workers': False,
             'is_full_time': True,
-            'updated_at': datetime(2019, 3, 25, 1, 53, 16),
+            'updated_at': datetime(2019, 3, 25, 1, 53, 16, tzinfo=UTC),
         }
         self.assertEqual(vacancy, expected)

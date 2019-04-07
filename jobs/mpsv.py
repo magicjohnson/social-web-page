@@ -1,15 +1,20 @@
+import logging
 from xml.etree import ElementTree
 
 from datetime import datetime
+
+import pytz
 from django.utils.functional import cached_property
 
+logger = logging.getLogger(__name__)
 
 class MPSVParser(object):
     def __init__(self, xml):
         self.xml = xml
         self.tree = ElementTree.parse(xml)
         self.root = self.tree.getroot()
-        self.updated_at = datetime.strptime(self.root.attrib.get('aktualizace'), '%Y-%m-%dT%H:%M:%S')
+        updated_timestamp = self.root.attrib.get('aktualizace')
+        self.updated_at = pytz.utc.localize(datetime.strptime(updated_timestamp, '%Y-%m-%dT%H:%M:%S'))
 
     def iterate_vacancies(self):
         for vacancy_element in self.root:
@@ -23,8 +28,10 @@ class VacancyParser(object):
         self.namespaces = {'vm': 'http://portal.mpsv.cz/xml/exportvm'}
 
     def parse(self):
+        uid = self.vacancy.attrib['uid']
+        logger.debug(f'Parsing vacancy {uid}')
         data = {
-            'uid': self.vacancy.attrib['uid'],
+            'uid': uid,
             'total_vacancies': int(self.vacancy.attrib['celkemVm']),
             'address': self.address,
             'region_codes': self.region_codes,
@@ -49,8 +56,8 @@ class VacancyParser(object):
     @property
     def company(self):
         el = self.find('FIRMA')
-        if el:
-            return self.get_attrs(el, {'name': 'nazev', 'ic': 'ic'})
+        if hasattr(el, 'attrib'):
+            return self.get_attrs(el, {'name': 'nazev'}, {'ic': 'ic'})
 
     @property
     def address(self):
@@ -68,7 +75,9 @@ class VacancyParser(object):
         if 'okresKod' in el.attrib:
             return [el.attrib['okresKod']]
 
-        return el.attrib['seznamOkresuKod'].split(',')
+        if 'seznamOkresuKod' in el.attrib:
+            return el.attrib['seznamOkresuKod'].split(',')
+        return []
 
     @property
     def profession(self):
@@ -82,7 +91,7 @@ class VacancyParser(object):
     @property
     def report_to(self):
         el = self.find('KONOS')
-        if el:
+        if hasattr(el, 'attrib'):
             return self.get_attrs(
                 el,
                 {'last_name': 'prijmeni'},
@@ -113,14 +122,14 @@ class VacancyParser(object):
     @property
     def salary_min(self):
         el = self.find('MZDA')
-        if el:
+        if hasattr(el, 'attrib'):
             return el.attrib['min']
 
     @property
     def salary_max(self):
         el = self.find('MZDA')
-        if el:
-            return el.attrib['max'],
+        if hasattr(el, 'attrib'):
+            return el.attrib.get('max')
 
     @property
     def is_full_time(self):
