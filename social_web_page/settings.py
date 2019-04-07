@@ -24,11 +24,13 @@ SECRET_KEY = '(n^rcm&yp#)vdfr37coysi1s&47d#msnwgxet2#6@j)_96$0xb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_numeric_filter',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +40,7 @@ INSTALLED_APPS = [
 
     'django_extensions',
     'cities_light',
+    'rangefilter',
 
     'jobs',
     'jobseekers',

@@ -12,6 +12,8 @@ django-extensions = "*"
 psycopg2-binary = "*"
 ipython = "*"
 requests = "*"
+django-admin-numeric-filter = "*"
+django-admin-rangefilter = "*"
 
 [requires]
 python_version = "3.7"
