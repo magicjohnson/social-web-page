@@ -12,6 +12,10 @@ class CustomSliderNumericFilter(SliderNumericFilter):
 
 @admin.register(models.Vacancy)
 class VacancyAdmin(NumericFilterModelAdmin):
+    fields = (
+        'comments',
+    )
+
     list_display = (
         'mpsv_id',
         'total_vacancies',
