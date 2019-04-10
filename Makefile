@@ -22,6 +22,9 @@ begin: migrate start
 start:
 	@docker-compose up -d
 
+prod-start:
+	@docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
+
 stop:
 	@docker-compose stop
 
