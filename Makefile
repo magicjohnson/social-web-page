@@ -65,7 +65,7 @@ cities_light:
 	@docker-compose run --rm web python ./manage.py cities_light
 
 import_vacancies:
-	@docker-compose run --rm web python ./manage.py import_vacancies --download vmbe20190325_xml.zip
+	@docker-compose run --rm web python ./manage.py import_vacancies --download latest
 
 createsuperuser:
 	@docker-compose run --rm web python ./manage.py createsuperuser
