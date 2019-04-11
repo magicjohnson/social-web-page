@@ -33,8 +33,9 @@ class MPSVParser(object):
                     data = {tag: el}
                 if event == 'end':
                     yield VacancyParser(data, self.updated_at).parse()
+                    el.clear()
                 continue
-            if event == 'start':
+            if event == 'start' and tag in ('FIRMA', 'PRACOVISTE', 'PROFESE', 'KONOS', 'PRAC_POMER', 'POZNAMKA', 'MZDA', 'PRACPRAVNI_VZTAH', 'VHODNE_PRO'):
                 data[tag] = el
 
 
