@@ -2,6 +2,9 @@ from admin_numeric_filter.admin import NumericFilterModelAdmin
 from admin_numeric_filter.forms import SingleNumericForm
 from django.contrib import admin
 from django.utils.html import format_html
+from import_export import resources
+from import_export.admin import ExportMixin
+from import_export.fields import Field
 from rangefilter.filter import DateRangeFilter
 
 from jobs import models
@@ -42,8 +45,35 @@ class StartsWithNumericFilter(admin.FieldListFilter):
         }, )
 
 
+class VacancyResource(resources.ModelResource):
+    region_codes = Field()
+
+    class Meta:
+        model = models.Vacancy
+        fields = (
+            'mpsv_id',
+            'total_vacancies',
+            'profession__code',
+            'profession__name',
+            'report_to__email',
+            'report_to__phone',
+            'employment_period_to',
+            'salary_min',
+            'salary_max',
+            'is_for_foreign_workers',
+            'mpsv_updated_at',
+            'region_codes',
+            'town',
+        )
+
+    def dehydrate_region_codes(self, obj):
+        return ' '.join(r.code for r in obj.region_codes.all())
+
+
 @admin.register(models.Vacancy)
-class VacancyAdmin(NumericFilterModelAdmin):
+class VacancyAdmin(ExportMixin, NumericFilterModelAdmin):
+    resource_class = VacancyResource
+
     fields = (
         'comments',
     )

@@ -16,6 +16,7 @@ django-admin-numeric-filter = "*"
 django-admin-rangefilter = "*"
 gunicorn = "*"
 whitenoise = "*"
+django-import-export = "*"
 
 [requires]
 python_version = "3.7"
