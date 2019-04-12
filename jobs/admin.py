@@ -1,4 +1,5 @@
-from admin_numeric_filter.admin import SliderNumericFilter, NumericFilterModelAdmin
+from admin_numeric_filter.admin import NumericFilterModelAdmin
+from admin_numeric_filter.forms import SingleNumericForm
 from django.contrib import admin
 from django.utils.html import format_html
 from rangefilter.filter import DateRangeFilter
@@ -6,9 +7,40 @@ from rangefilter.filter import DateRangeFilter
 from jobs import models
 
 
-class CustomSliderNumericFilter(SliderNumericFilter):
-    MAX_DECIMALS = 0
-    STEP = 10
+class StartsWithNumericFilter(admin.FieldListFilter):
+    request = None
+    parameter_name = None
+    template = 'admin/filter_numeric_single.html'
+
+    def __init__(self, field, request, params, model, model_admin, field_path):
+        super().__init__(field, request, params, model, model_admin, field_path)
+
+        self.request = request
+
+        if self.parameter_name is None:
+            self.parameter_name = self.field_path
+
+        if self.parameter_name in params:
+            value = params.pop(self.parameter_name)
+            self.used_parameters[self.parameter_name] = value
+
+    def expected_parameters(self):
+        return [self.parameter_name]
+
+    def queryset(self, request, queryset):
+        if self.value():
+            return queryset.filter(**{'%s__startswith' % self.parameter_name: self.value()})
+
+    def value(self):
+        return self.used_parameters.get(self.parameter_name, None)
+
+    def choices(self, changelist):
+        return ({
+            'request': self.request,
+            'parameter_name': self.parameter_name,
+            'form': SingleNumericForm(name=self.parameter_name, data={self.parameter_name: self.value()}),
+        }, )
+
 
 @admin.register(models.Vacancy)
 class VacancyAdmin(NumericFilterModelAdmin):
@@ -38,8 +70,7 @@ class VacancyAdmin(NumericFilterModelAdmin):
     )
 
     list_filter = (
-        ('salary_min', CustomSliderNumericFilter),
-        ('salary_max', CustomSliderNumericFilter),
+        ('profession__code', StartsWithNumericFilter),
         ('employment_period_to', DateRangeFilter),
         'is_for_foreign_workers',
     )
